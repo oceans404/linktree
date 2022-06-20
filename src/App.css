@@ -18,7 +18,7 @@ p {
 }
 
 .info-div {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .info-div-title {
@@ -35,8 +35,8 @@ p {
 }
 
 .circle-shape {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;

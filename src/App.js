@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   const info = {
-    name: "Steph",
+    name: "Steph Orpilla",
     ethAddress: "oceans404.eth",
     lensAddress: "stepho.lens",
   };
@@ -25,9 +25,10 @@ function App() {
         </a>
       </div>
       <div className="info-div">
+        <p className="info-div-title">{info.name}</p>
         <p>
-          <span className="light ">
-            {info.name} • {info.ethAddress} • {info.lensAddress}
+          <span className="light">
+            {info.ethAddress} • {info.lensAddress}
           </span>
         </p>
         <p className="">
@@ -64,7 +65,7 @@ function App() {
         </a>
 
         <a href={links.polygonForm} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">📄 Stay in touch with Polygon</div>
+          <div class="link-list-item dark">💬 Stay in touch with Polygon</div>
         </a>
       </div>
     </div>
