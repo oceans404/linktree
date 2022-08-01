@@ -16,7 +16,35 @@ function App() {
     polygonForm:
       "https://docs.google.com/forms/d/e/1FAIpQLSfelhpuF-CLbq943b2FgkibJUmTauKoi3S-CNN7_pz-9xIGcA/viewform",
     polygonDeveloperLibrary: "http://bit.ly/polygon-library",
+    poap: "https://app.poap.xyz/scan/oceans404.eth",
   };
+
+  const linksList = [
+    {
+      name: "Twitter",
+      link: links.twitter,
+    },
+    {
+      name: "Telegram",
+      link: links.telegram,
+    },
+    {
+      name: "Lens Frens",
+      link: links.lensprotocol,
+    },
+    {
+      name: "Instagram",
+      link: links.instagram,
+    },
+    {
+      name: "My POAPs",
+      link: links.poap,
+    },
+    {
+      name: "Polygon Dev Resources",
+      link: links.polygonDeveloperLibrary,
+    },
+  ];
   return (
     <div class="container">
       <div class="circle-shape">
@@ -40,33 +68,11 @@ function App() {
       </div>
 
       <div class="link-list">
-        <a href={links.twitter} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">Twitter</div>
-        </a>
-
-        <a href={links.telegram} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">Telegram</div>
-        </a>
-
-        <a href={links.lensprotocol} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">Lens Frens</div>
-        </a>
-
-        <a href={links.instagram} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">Instagram</div>
-        </a>
-
-        <a
-          href={links.polygonDeveloperLibrary}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="link-list-item dark">Polygon dev resources</div>
-        </a>
-
-        <a href={links.polygonForm} target="_blank" rel="noopener noreferrer">
-          <div class="link-list-item dark">💬 Stay in touch with Polygon</div>
-        </a>
+        {linksList.map(({ link, name }) => (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <div class="link-list-item dark">{name}</div>
+          </a>
+        ))}
       </div>
     </div>
   );
