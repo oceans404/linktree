@@ -16,9 +16,21 @@ export const links = {
     "https://docs.google.com/forms/d/e/1FAIpQLSfelhpuF-CLbq943b2FgkibJUmTauKoi3S-CNN7_pz-9xIGcA/viewform",
   polygonDeveloperLibrary: "http://bit.ly/polygon-library",
   poap: "https://app.poap.xyz/scan/oceans404.eth",
+  idworkshop:
+    "https://www.canva.com/design/DAFOYmGTGeI/Ur90lXE2cgPbthYzEZZUUA/view?utm_content=DAFOYmGTGeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  idtutorial:
+    "https://github.com/oceans404/tutorial-examples/tree/main/on-chain-verification",
 };
 
 export const linksList = [
+  {
+    name: "Polygon ID Slides",
+    link: links.idworkshop,
+  },
+  {
+    name: "Polygon ID Tutorial Github",
+    link: links.idtutorial,
+  },
   {
     name: "Twitter",
     link: links.twitter,
