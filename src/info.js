@@ -17,7 +17,7 @@ export const links = {
   polygonDeveloperLibrary: "http://bit.ly/polygon-library",
   poap: "https://app.poap.xyz/scan/oceans404.eth",
   idworkshop:
-    "https://www.canva.com/design/DAFOYmGTGeI/Ur90lXE2cgPbthYzEZZUUA/view?utm_content=DAFOYmGTGeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "https://www.canva.com/design/DAFOo2bdarI/WAzHBpQiOrTvGNGlgnb49w/view?utm_content=DAFOo2bdarI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   idtutorial:
     "https://github.com/oceans404/tutorial-examples/tree/main/on-chain-verification",
 };
