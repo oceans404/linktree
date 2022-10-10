@@ -19,7 +19,7 @@ export const links = {
   idworkshop:
     "https://www.canva.com/design/DAFOo2bdarI/WAzHBpQiOrTvGNGlgnb49w/view?utm_content=DAFOo2bdarI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   idtutorial:
-    "https://github.com/oceans404/tutorial-examples/tree/main/on-chain-verification",
+    "https://github.com/0xPolygonID/tutorial-examples/tree/main/on-chain-verification",
 };
 
 export const linksList = [
