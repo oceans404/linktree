@@ -23,13 +23,21 @@ export const links = {
 };
 
 export const linksList = [
+  // {
+  //   name: "Polygon ID Slides",
+  //   link: links.idworkshop,
+  // },
+  // {
+  //   name: "Polygon ID Tutorial Github",
+  //   link: links.idtutorial,
+  // },
   {
-    name: "Polygon ID Slides",
-    link: links.idworkshop,
+    name: "Guestbook Slide Deck",
+    link: "https://www.canva.com/design/DAFQFAGwzdo/PMxIEwqaaaVkw1NLjHNj8g/view?utm_content=DAFQFAGwzdo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Polygon ID Tutorial Github",
-    link: links.idtutorial,
+    name: "Guestbook Github",
+    link: "https://github.com/oceans404/guestbook",
   },
   {
     name: "Twitter",
