@@ -20,25 +20,28 @@ export const links = {
     "https://www.canva.com/design/DAFOo2bdarI/WAzHBpQiOrTvGNGlgnb49w/view?utm_content=DAFOo2bdarI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   idtutorial:
     "https://github.com/0xPolygonID/tutorial-examples/tree/main/on-chain-verification",
+  guestbook: {
+    slides:
+      "https://www.canva.com/design/DAFQFAGwzdo/PMxIEwqaaaVkw1NLjHNj8g/view?utm_content=DAFQFAGwzdo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    github: "https://github.com/oceans404/guestbook",
+  },
+  evolvingNfts: {
+    slides:
+      "https://www.canva.com/design/DAFQtBh1dwY/O07WCRH__w5N65n0XNhCHg/view?utm_content=DAFQtBh1dwY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    github: "https://github.com/oceans404/mutable-nfts-tableland-polygon",
+  },
 };
 
 export const linksList = [
-  // {
-  //   name: "Polygon ID Slides",
-  //   link: links.idworkshop,
-  // },
-  // {
-  //   name: "Polygon ID Tutorial Github",
-  //   link: links.idtutorial,
-  // },
   {
-    name: "Guestbook Slide Deck",
-    link: "https://www.canva.com/design/DAFQFAGwzdo/PMxIEwqaaaVkw1NLjHNj8g/view?utm_content=DAFQFAGwzdo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    name: "Evolving NFTs Slides",
+    link: links.evolvingNfts.slides,
   },
   {
-    name: "Guestbook Github",
-    link: "https://github.com/oceans404/guestbook",
+    name: "Evolving NFTs Github",
+    link: links.evolvingNfts.github,
   },
+
   {
     name: "Twitter",
     link: links.twitter,
